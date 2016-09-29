@@ -1,0 +1,34 @@
+{
+  "credential":
+  {
+    "username":"admin",
+    "password":"admin"
+  },
+
+  "controller":
+  {
+    "ip": "172.27.3.125",
+    "port": 8181,
+    "url": "http://172.27.3.125:8181/index.html"
+  },
+  "nodexpath":
+  {
+    "node": "//li[2]/a",
+    "node_flows":"//span/a",
+    "node_connector":"//a[2]"
+  },
+  "yanguixpath":
+  {
+    "yangui": "//li[3]/a",
+    "yang_api": "//*[@id='pageContent']/div/div/div[4]/div/div/div/button"
+  },
+  "yangvisualxpath":
+  {
+    "yangvisual": "//li[4]/a"
+  },
+  "topologypage":
+  {
+    "topologypath":"//div/ul/li/as",
+    "reload_button": "//div[@id='pageContent']/div/div/div/button"
+  }
+}
